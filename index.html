@@ -72,9 +72,9 @@
             src="images/hero.png"
             alt="Mountain lake at sunset"
     >
-
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></div>
     <div class="hero-content position-absolute top-50 start-50 translate-middle
-            w-100 px-4 text-white text-start text-sm-center">
+            w-100 px-4 text-white text-start text-sm-center z-1">
       <h1 class="fw-bold">Find your new hobby</h1>
 
       <p class="mb-4">
@@ -89,54 +89,61 @@
   </section>
 
 
-  <section class="workshops-section container" id="workshops">
+  <section class="workshops-section py-4 py-md-5" id="workshops">
 
     <div class="workshops-content">
 
-      <h2>Our workshops</h2>
+      <h2 class="text-start text-sm-center mb-4>Our workshops</h2>
 
-      <div class="workshops-list row">
+      <div class="workshops-list row g-3">
+      <div class="workshop-item col-12 col-sm-6 col-md-4 col-xl">
+        <article
+                class="workshop-card card h-100 flex-row flex-sm-column
+                 overflow-hidden shadow-sm"
+        >
+
+          <img
+                  class="workshop-image card-img-top object-fit-cover"
+                  src="images/photography.png"
+                  alt="Photographer holding a camera"
+          >
+
+          <div class="workshop-card-content card-body d-flex flex-column">
+
+            <h3 class="card-title h5">
+              Photography
+            </h3>
+
+            <p class="card-text">
+              Learn to see ordinary places differently.
+            </p>
+
+            <p class="mt-auto mb-0">
+              <time datetime="11:00">◷ 11:00</time>
+            </p>
+
+          </div>
+
+        </article>
+      </div>
 
         <div class="workshop-item col-12 col-sm-6 col-md-4 col-xl">
-          <article class="workshop-card">
+          <article class="workshop-card card h-100 flex-row flex-sm-column
+                 overflow-hidden shadow-sm">
 
-            <img
-                    src="images/photography.png"
-                    alt="Photographer holding a camera"
-            >
-
-            <div class="workshop-card-content">
-              <h3>Photography</h3>
-
-              <p>
-                Learn to see ordinary places differently.
-              </p>
-
-              <p>
-                <time datetime="11:00">11:00</time>
-              </p>
-            </div>
-
-          </article>
-        </div>
-
-
-        <div class="workshop-item col-12 col-sm-6 col-md-4 col-xl">
-          <article class="workshop-card">
-
-            <img
+            <img class="workshop-image card-img-top object-fit-cover"
                     src="images/cooking.png"
                     alt="Prepared chicken, potatoes and vegetables"
             >
 
-            <div class="workshop-card-content">
-              <h3>Cooking</h3>
+            <div class="workshop-card-content card-body d-flex flex-column">
+              <h3 class="card-title h5">Cooking</h3>
 
-              <p>
+              <p class="card-text">
                 Prepare a simple dish with a professional chef.
               </p>
 
-              <p>
+              <p class="mt-auto mb-0">
                 <time datetime="12:00">12:00</time>
               </p>
             </div>
@@ -146,21 +153,22 @@
 
 
         <div class="workshop-item col-12 col-sm-6 col-md-4 col-xl">
-          <article class="workshop-card">
+          <article class="workshop-card card h-100 flex-row flex-sm-column
+                 overflow-hidden shadow-sm">
 
-            <img
+            <img class="workshop-image card-img-top object-fit-cover"
                     src="images/gaming.png"
                     alt="Two people playing a computer game"
             >
 
-            <div class="workshop-card-content">
-              <h3>Gaming</h3>
+            <div class="workshop-card-content card-body d-flex flex-column">
+              <h3 class="card-title h5">Gaming</h3>
 
-              <p>
+              <p class="card-text">
                 Create a concept for your first computer game.
               </p>
 
-              <p>
+              <p class="mt-auto mb-0">
                 <time datetime="13:00">13:00</time>
               </p>
             </div>
@@ -170,21 +178,22 @@
 
 
         <div class="workshop-item col-12 col-sm-6 col-md-6 col-xl">
-          <article class="workshop-card">
+          <article class="workshop-card card h-100 flex-row flex-sm-column
+                 overflow-hidden shadow-sm">
 
-            <img
+            <img class="workshop-image card-img-top object-fit-cover"
                     src="images/painting.png"
                     alt="Paintbrush on a colorful canvas"
             >
 
-            <div class="workshop-card-content">
-              <h3>Painting</h3>
+            <div class="workshop-card-content card-body d-flex flex-column">
+              <h3 class="card-title h5">Painting</h3>
 
-              <p>
+              <p class="card-text">
                 Paint a small picture and take it home.
               </p>
 
-              <p>
+              <p class="mt-auto mb-0">
                 <time datetime="14:00">14:00</time>
               </p>
             </div>
@@ -194,21 +203,22 @@
 
 
         <div class="workshop-item col-12 col-sm-12 col-md-6 col-xl">
-          <article class="workshop-card">
+          <article class="workshop-card card h-100 flex-row flex-sm-column
+                 overflow-hidden shadow-sm">
 
-            <img
+            <img class="workshop-image card-img-top object-fit-cover"
                     src="images/woodwork.png"
                     alt="Craftsperson working with a hand plane"
             >
 
-            <div class="workshop-card-content">
-              <h3>Woodwork</h3>
+            <div class="workshop-card-content card-body d-flex flex-column">
+              <h3 class="card-title h5">Woodwork</h3>
 
-              <p>
+              <p class="card-text">
                 Create a simple wooden object with your own hands.
               </p>
 
-              <p>
+              <p class="mt-auto mb-0">
                 <time datetime="15:00">15:00</time>
               </p>
             </div>
